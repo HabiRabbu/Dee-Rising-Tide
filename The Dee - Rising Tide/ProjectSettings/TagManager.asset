@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LumberMill
+  - StoneQuarry
+  - IronMine
+  - WoodenHouse
+  - StoneHouse
+  - IronHouse
+  - Houses
+  - Wall1
+  - Wall2
+  - Wall3
+  - Wall4
+  - Wall5
+  - Wall6
+  - Wall7
+  - Wall8
+  - Wall9
+  - Wall10
+  - Wall11
+  - Wall12
+  - Wall13
+  - Wall14
+  - Wall15
+  - Wall16
+  - Wall17
+  - Wall18
+  - Wall19
+  - Wall20
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Popup
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Popup
+    uniqueID: 410665347
+    locked: 0
+  - name: Story
+    uniqueID: 340833567
+    locked: 0

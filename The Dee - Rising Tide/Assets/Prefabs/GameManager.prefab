@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5468767326404506068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5468767326404506067}
+  - component: {fileID: 5468767326404506066}
+  - component: {fileID: 5468767326404506065}
+  - component: {fileID: 5468767326404506064}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5468767326404506067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468767326404506068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 58.20395, y: 31.767342, z: -17.453125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5468767326404506066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468767326404506068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ceef55206c5a8d48af3ebc6196319a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lumberMill: {fileID: 0}
+  stoneQuarry: {fileID: 0}
+  ironMine: {fileID: 0}
+  houses: {fileID: 0}
+  goldIncreaseText: {fileID: 0}
+  woodIncreaseText: {fileID: 0}
+  stoneIncreaseText: {fileID: 0}
+  ironIncreaseText: {fileID: 0}
+  ironText: {fileID: 0}
+  stoneText: {fileID: 0}
+  woodText: {fileID: 0}
+  goldText: {fileID: 0}
+  popText: {fileID: 0}
+  woodCount: 0
+  stoneCount: 0
+  ironCount: 0
+  goldCount: 0
+  popCount: 0
+  woodUpgradeCost: 0500000000000000
+  stoneUpgradeCost: 0a00000002000000
+  ironUpgradeCost: 1400000005000000
+--- !u!114 &5468767326404506065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468767326404506068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c017725d405c4546bfe2d3dd930b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallBlocks: []
+  upgradePopup: {fileID: 0}
+  wallPopup: {fileID: 0}
+  housesPopup: {fileID: 0}
+  upgradeText: {fileID: 0}
+  popAmountText: {fileID: 0}
+  housesAmountText: {fileID: 0}
+  resourceManager: {fileID: 5468767326404506066}
+  LumberMill: {fileID: 0}
+  StoneQuarry: {fileID: 0}
+  IronMine: {fileID: 0}
+  Houses: {fileID: 0}
+  lumberMillIncrease: 1
+  stoneQuarryIncrease: 1
+  ironMineIncrease: 1
+  housesIncrease: 0
+  woodBlockCost: 1
+  stoneBlockCost: 1
+  ironBlockCost: 1
+--- !u!114 &5468767326404506064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468767326404506068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8359ef73b178fd4187f42877acb5cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyPopup: {fileID: 0}
+  water: {fileID: 0}
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  timerText: {fileID: 0}
+  resourceManager: {fileID: 5468767326404506066}
+  inProgress: 0
+  newPos: {x: 0, y: 0, z: 0}
