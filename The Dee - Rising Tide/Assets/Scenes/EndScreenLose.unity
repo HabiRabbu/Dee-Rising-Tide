@@ -1227,7 +1227,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Thanks for playing my game!\n - Harvey\nharveytherabbit.itch.io"
+  m_Text: "Thanks for playing my game!\n - HabiRabbu\nharveytherabbit.itch.io"
 --- !u!222 &805033457
 CanvasRenderer:
   m_ObjectHideFlags: 0
